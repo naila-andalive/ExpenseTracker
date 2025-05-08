@@ -1,0 +1,24 @@
+name: expensetrackertest2
+description: A personal expense tracker with login, dark mode, and charts.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.1
+  crypto: ^3.0.3
+  fl_chart: ^0.66.0
+  url_launcher: ^6.1.7
+  flutter_speed_dial: ^7.0.0  # <-- ✅ Added this line for FAB menu
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
